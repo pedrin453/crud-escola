@@ -11,8 +11,10 @@ app.use(express.json());
 
 // Rotas
 app.use('/alunos', alunosRoutes);         // Membro 1
+app.use('/professores', professores);     // Membro 2
 
 
 app.listen(3000, () => {
   console.log('Servidor rodando em http://localhost:3000');
 });
+
