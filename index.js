@@ -11,7 +11,7 @@ app.use(express.json());
 
 // Rotas
 app.use('/alunos', alunosRoutes);         // Membro 1
-app.use('/professores', professores);     // Membro 2
+app.use('/professores', professoresRoutes);     // Membro 2
 
 
 app.listen(3000, () => {
